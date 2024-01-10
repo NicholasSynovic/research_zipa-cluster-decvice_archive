@@ -3,13 +3,17 @@
     path: /mnt/data
     state: directory
 
+# NOTE: src IP address needs to be configured manually.
+# Currently hidden for public release.
+# See ../../README.md for more information
+
 - name: "Setting fstab configuration"
   mount:
     backup: true
     boot: true
     fstype: nfs
     path: /mnt/data
-    src: 10.17.29.18:/mnt/data # Change to IP address
+    src: x.x.x.x:/mnt/data # Change to IP address
     dump: '0'
     opts: auto
     state: present
