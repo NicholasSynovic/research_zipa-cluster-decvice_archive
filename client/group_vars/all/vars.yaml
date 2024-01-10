@@ -1,14 +1,12 @@
-# Installable packages using apt
-
-utils:
+utilities_APT:
   - git=1:2.39.2-1.1
   - software-properties-common=0.99.30-4
   - vim=2:9.0.1378-2
 
-avahi:
+avahi_APT:
   - avahi-daemon=0.8-10
 
-python3:
+python3_APT:
   - python3=3.11.2-1+b1
   - python3-pip=23.0.1+dfsg-1+rpt1
   - python3-pyaudio=0.2.13-1+b1
