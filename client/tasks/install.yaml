@@ -1,7 +1,11 @@
 - name: "Installing utilities"
   apt:
-    name: "{{ utils }}"
+    name: "{{ utilities_APT }}"
 
-- name: "Installing Python utilities"
+- name: "Installing avahi"
   apt:
-    name: "{{ python3 }}"
+    name: "{{ avahi_APT }}"
+
+- name: "Installing Python3 tooling"
+  apt:
+    name: "{{ python3_APT }}"
